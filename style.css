@@ -356,5 +356,5 @@ nav ul li a:hover::before {
     width: 100px;
     height: 100px;
     object-fit: contain;
-    border-radius: 15px;
+    border-radius: 10px;
 }
