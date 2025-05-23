@@ -3,7 +3,7 @@
 :root {
     --background: rgb(0, 0, 0);
     --second-background: rgb(21, 21, 21);
-    --main-background: rgb(255, 255, 255);
+    --main-background: rgb(252, 252, 252);
     --text-primary: #333;
     --text-secondary: #5c5a5a;
     --accent-color: #57C84D;
@@ -26,6 +26,7 @@
 body {
     min-height: 100vh;
     background: var(--main-background);
+    color: var(--text-primary);
     /* display: flex; 
     align-items: center;
     justify-content: center; */
@@ -301,4 +302,35 @@ nav ul li a:hover::before {
     .container-button {
         padding: 12px;
     }
+}
+
+/* Me Section */
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 15%;
+    gap: 30px;
+}
+
+.me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.me-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.styled-name {
+    color: var(--accent-color);
 }
