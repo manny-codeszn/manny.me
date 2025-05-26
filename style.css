@@ -7,8 +7,7 @@
     --main-background: rgb(252, 252, 252);
     --text-primary: #333;
     --text-secondary: #5c5a5a;
-    --accent-color: #57C84D;
-    --purple-color: #750775;
+    --accent-color: #3ec332;
     --border-radius-sm: 10px;
     --border-radius-md: 15px;
     --border-radius-mlg: 20px;
@@ -181,7 +180,7 @@ nav ul li a:hover::before {
 }
 
 .styled-name {
-    color: var(--purple-color);
+    color: var(--accent-color);
 }
 
 .title {
@@ -217,7 +216,7 @@ nav ul li a:hover::before {
     border-radius: 10px;
     width: 200px;
     height: 30px;
-    background-color: var(--purple-color);
+    background-color: var(--accent-color);
     border: none;
 }
 
@@ -334,7 +333,7 @@ nav ul li a:hover::before {
     }
 
     .me-content p {
-        font-size: 10px;
+        font-size: 12px;
         padding: 0 15px;
     }
 
